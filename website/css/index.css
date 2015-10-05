@@ -39,8 +39,9 @@ h1 {
 	width: 15%;
 	height: 15%;
 	float: right;
-	margin-right: 15%;
-	border-radius: 15px;
+	margin-right: 12%;
+	border-radius: 30px;
+	padding: 10px;
 }
 
 .float-fix {
