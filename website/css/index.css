@@ -32,6 +32,8 @@ h1 {
 	float: none;
 	list-style: none;
 	padding: 0;
+	margin-left: 30%;
+	margin-right: 30%;
 }
 
 .tabs input[type=radio]{
@@ -44,7 +46,7 @@ h1 {
 	width: 33.3333%;
 	padding: 0;
 
-	font-size: 30px;
+	font-size: 25px;
 	color: #FFF5EE;
 	text-align: center;
 	margin-bottom: 40px;
