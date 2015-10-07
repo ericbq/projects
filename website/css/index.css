@@ -13,6 +13,7 @@ body {
 
 .header {
 	color: #FFF5EE;
+	clear: both;
 }
 
 nav .header {
@@ -27,12 +28,26 @@ h1 {
 	margin-bottom: 0;
 }
 
-.navbar {
-	position: center;	
+.tabs {
+	float: none;
+	list-style: none;
+	padding: 0;
 }
 
-.navbar button {
-	color: blue;
+.tabs input[type=radio]{
+	display: none;
+}
+
+.tabs label {
+	display: block;
+	float: left;
+	width: 33.3333%;
+	padding: 0;
+
+	font-size: 30px;
+	color: #FFF5EE;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
 #portrait {
