@@ -16,7 +16,7 @@ h1 {
 	height: 200px;
 	margin-top: 50px;
 	margin-bottom: 0;
-	color: white;
+	color: #E5E5E5;
 }
 
 .tabs {
@@ -50,7 +50,6 @@ h2 {
 	margin-bottom: 0;
 	font-size: 40px;
 	height: 50px;
-	color: black;
 }
 
 ul {
@@ -60,11 +59,12 @@ ul {
 h3 {
 	text-align: center;
 	margin-bottom: 0;
-	color: black;
 }
 
 p {
 	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .text {
@@ -78,5 +78,21 @@ p {
 	background-position: center center;
 	background-size: auto 100%;
 	width: 100%;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.emp {
+	background-color: #988989;
+	width: 100%;
+}
+
+.pro {
+	background-color: #F2F2F2;
+}
+
+.on {
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.off {
+	color: #E5E5E5;
 }
