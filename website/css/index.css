@@ -6,7 +6,7 @@ body {
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
-	background-image: url("../resources/desk.jpg");
+	background-image: url("/resources/desk.jpg");
 	width: 100vw;
 	text-align: center;
 }
@@ -16,7 +16,7 @@ h1 {
 	height: 200px;
 	margin-top: 50px;
 	margin-bottom: 0;
-	color: #E5E5E5;
+	color: #EDE5D9;
 }
 
 .tabs {
@@ -74,19 +74,19 @@ p {
 }
 
 .about {
-	background-image: url("../resources/me.jpg");
+	background-image: url("/resources/me.jpg");
 	background-position: center center;
 	background-size: auto 100%;
 	width: 100%;
 }
 
 .emp {
-	background-color: #988989;
+	background-color: #EDE5D9;
 	width: 100%;
 }
 
 .pro {
-	background-color: #F2F2F2;
+	background-color: #FAF1E5;
 }
 
 .on {
@@ -94,5 +94,5 @@ p {
 }
 
 .off {
-	color: #E5E5E5;
+	color: #EDE5D9;
 }

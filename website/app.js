@@ -1,7 +1,12 @@
 var express = require('express');
-var server = express();
+var app = express();
 
-server.get("./index.html");
+app.get('/', function(req, res){
+        res.sendFile(__dirname + '/views/index.html');
+    });
 
-server.listen(80);
+app.use('/css', express.static(__dirname + '/css'));
+app.use('/resources', express.static(__dirname + '/resources'));
+
+app.listen(80);
 console.log("Server running");
