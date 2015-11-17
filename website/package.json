@@ -1,0 +1,23 @@
+{
+  "name": "ericbq.com",
+  "version": "1.0.0",
+  "description": "Eric Blomquist",
+   "dependencies": {
+    "express": "^4.10.2",
+    "node.io": "^0.5.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericbq/projects.git"
+  },
+  "author": "Eric Blomquist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericbq/projects/issues"
+  },
+  "homepage": "https://github.com/ericbq/projects#readme"
+}
