@@ -97,7 +97,7 @@ p {
 }
 
 .first:after {
-	content:'More info';
+	content:'More info (external video)';
 	font-size: 140%;
 	color: #ECEFF1;
 	vertical-align: middle;
