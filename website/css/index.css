@@ -25,6 +25,7 @@ h1 {
 	padding-top: 50px;
 	margin-bottom: 0;
 	color: #ECEFF1;
+	text-align: center;
 }
 
 p {
@@ -55,6 +56,21 @@ p {
 	background-color: #ECEFF1;
 	width: 100vw;
 	padding-top: 2%;
+}
+
+.subwork {
+	text-align: left;
+	display: flex;
+	margin-left: 5%;
+}
+
+.workstage {
+	width: 25vw;
+	height: 30vw;
+}
+
+.workstage p {
+	max-width: 20vw;
 }
 
 .projects {
