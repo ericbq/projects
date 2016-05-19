@@ -28,10 +28,15 @@ h1 {
 
 a {
 	color: #ECEFF1;
+	text-decoration: none;
 }
 
 .links {
 	margin: 7.5vh;
+}
+
+.links img {
+	height: 80px;
 }
 
 p {
