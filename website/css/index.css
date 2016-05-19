@@ -1,7 +1,3 @@
-.header {
-	margin: 0;
-}
-
 body {
 	margin: 0;
 	padding: 0;
@@ -15,17 +11,27 @@ body {
 	text-align: center;
 }
 
+#top {
+	height: 80vh;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
 	font-size: 100px;
-	height: 200px;
-	padding-top: 50px;
-	margin-bottom: 0;
 	color: #ECEFF1;
 	text-align: center;
+	line-height: 50vh;
+}
+
+a {
+	color: #ECEFF1;
+}
+
+.links {
+	margin: 7.5vh;
 }
 
 p {
