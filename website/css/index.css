@@ -66,11 +66,11 @@ p {
 
 .workstage {
 	width: 25vw;
-	height: 30vw;
+	margin-bottom: 5%;
 }
 
 .workstage p {
-	max-width: 20vw;
+	max-width: 15vw;
 }
 
 .projects {
