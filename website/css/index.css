@@ -1,8 +1,9 @@
-body {
+body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
+	font-size: 16px;
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
@@ -85,7 +86,6 @@ p {
 }
 
 .projects {
-	height: 60vh;
 	display: flex;
 	padding-bottom: 0;
 }
@@ -106,7 +106,6 @@ p {
 	font-size: 140%;
 	color: #ECEFF1;
 	vertical-align: middle;
-	width: 50vw; height: 33vw;
 	line-height: 33vw;
 	/*background:rgba(0,0,0,0.6);*/
   opacity:0;
@@ -119,15 +118,35 @@ p {
 }
 
 .second {
+	background-color: #000317;
+	text-align: left;
+}
+
+.second h3 {
+	margin-left: 15%;
+	margin-top: 25%;
+}
+
+.second p {
+	margin-left: 15%;
+	max-width: 35vw;
+}
+
+.third {
+	background-color: #ECEFF1;
+	line-height: 33vw;
+	font-size: 140%;
+}
+
+.fourth {
 	background-image: url("/resources/vr.jpg");
 }
 
-.second:after {
+.fourth:after {
 	content:'Coming soon';
 	font-size: 140%;
 	color: #ECEFF1;
 	vertical-align: middle;
-	width: 50vw; height: 33vw;
 	line-height: 33vw;
 	/*background:rgba(0,0,0,0.6);*/
 	background-size: 50vw 33vw;
@@ -136,7 +155,7 @@ p {
   -webkit-transition: all 0.5s;
 }
 
-.second:hover:after {
+.fourth:hover:after {
 	opacity: 1;
 }
 
