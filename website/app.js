@@ -8,5 +8,5 @@ app.get('/', function(req, res){
 app.use('/css', express.static(__dirname + '/css'));
 app.use('/resources', express.static(__dirname + '/resources'));
 
-app.listen(8080);
+app.listen(80);
 console.log("Server running");

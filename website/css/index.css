@@ -74,12 +74,43 @@ p {
 	background-image: url("/resources/tesla1.jpg");
 }
 
-/*.second {
-	background-image: url("/resources/tesla2.jpg");
-}*/
+.first:after {
+	content:'More info';
+	font-size: 140%;
+	color: #ECEFF1;
+	vertical-align: middle;
+	width: 50vw; height: 33vw;
+	line-height: 33vw;
+	/*background:rgba(0,0,0,0.6);*/
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
 
-.third {
+.first:hover:after {
+	opacity: 1;
+}
+
+.second {
 	background-image: url("/resources/vr.jpg");
+}
+
+.second:after {
+	content:'Coming soon';
+	font-size: 140%;
+	color: #ECEFF1;
+	vertical-align: middle;
+	width: 50vw; height: 33vw;
+	line-height: 33vw;
+	/*background:rgba(0,0,0,0.6);*/
+	background-size: 50vw 33vw;
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.second:hover:after {
+	opacity: 1;
 }
 
 .on {
