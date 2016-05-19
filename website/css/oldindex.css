@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	background-image: url("/resources/desk.jpg");
+	width: 100vw;
+	text-align: center;
+}
+
+h1 {
+	font-size: 100px;
+	height: 200px;
+	margin-top: 50px;
+	margin-bottom: 0;
+	color: #EDE5D9;
+}
+
+.tabs {
+	float: none;
+	list-style: none;
+	padding: 0;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.tabs input[type=radio]{
+	display: none;
+}
+
+.tabs label {
+	display: block;
+	float: left;
+	width: 33.3333%;
+	padding: 0;
+
+	font-size: 25px;
+	color: #FFF5EE;
+	text-align: center;
+	margin-bottom: 40px;
+
+	cursor: pointer;
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 40px;
+	height: 50px;
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+h3 {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+p {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text {
+	text-align: center;
+	width: 100%;
+	padding: 15px;
+}
+
+.about {
+	background-image: url("/resources/me.jpg");
+	background-position: center center;
+	background-size: auto 100%;
+	width: 100%;
+}
+
+.emp {
+	background-color: #EDE5D9;
+	width: 100%;
+}
+
+.pro {
+	background-color: #FAF1E5;
+}
+
+.on {
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.off {
+	color: #EDE5D9;
+}
